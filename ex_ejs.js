@@ -10,5 +10,5 @@ app.engine("html", ejs.renderFile);
 var router3 = require("./router/router3")(app);
 
 var server = app.listen(2000, function () {
-  console.log("포트 2000번 서버 실행중...");
+  console.log("포트 2000번 ");
 });
