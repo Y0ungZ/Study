@@ -6,6 +6,7 @@
   "main": "pathToMain",
   "dependencies": {
     "express": "*",
-    "ejs": "*"
+    "ejs": "*",
+    "body-parser": "*"
   }
 }

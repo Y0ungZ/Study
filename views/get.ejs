@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>get.ejs</h1>
+    <a href="parameter?data1=aaa&data2=bbb">파라미터 출력으로 이동</a>
+    <form action="parameter" method="get">
+      <label> data1: <input type="text" name="data1" /></label><br />
+      <label> data2: <input type="text" name="data2" /></label><br />
+      <button type="submit">입력</button>
+    </form>
+    <form action="parameter" method="post">
+      <label> data1: <input type="text" name="data1" /></label><br />
+      <label> data2: <input type="text" name="data2" /></label><br />
+      <button type="submit">입력</button>
+    </form>
+  </body>
+</html>
